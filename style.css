@@ -1,11 +1,20 @@
 html {
-  font-family: Outfit;
+  font-family: Outfit, sans-serif;
   font-size: 15px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: #d5e1ef;
 }
 
 .card {
   border-radius: 10px;
-  border: 1px black solid;
+  background-color: white;
   display: grid;
   padding: 10px;
   height: 370px;
@@ -24,4 +33,13 @@ img {
 .main-text p {
   color: hsl(216, 15%, 48%);
   font-size: 13px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
