@@ -10,6 +10,7 @@ body {
   display: grid;
   place-items: center;
   background-color: #d5e1ef;
+  min-height: 100vh;
 }
 
 .card {
